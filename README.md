@@ -12,6 +12,7 @@ Knife是一个可以查看主机串流视频，访问资源，以及代理执行
 
 ## Installation
 1，安装串流服务器（默认使用nginx with rtmp)
+
 ```conf
 rtmp {
   server {
