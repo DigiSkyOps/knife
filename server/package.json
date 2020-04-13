@@ -1,0 +1,28 @@
+{
+  "name": "obs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development && nodemon app.js",
+    "prod": "cross-env NODE_ENV=production node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "^4.1.1",
+    "express": "~4.15.5",
+    "is-port-reachable": "^3.0.0",
+    "mongoose": "^5.4.17",
+    "morgan": "~1.9.0",
+    "qs": "^6.6.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.3.0",
+    "underscore": "^1.9.2",
+    "obs-websocket-js": "^4.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}

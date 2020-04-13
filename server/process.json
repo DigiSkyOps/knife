@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "autonline-meta",
+      "script": "app.js",
+      "node_args": "--harmony",
+      "watch": false,
+      "log_date_format": "YYYY - MM - DD HH: mm Z",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

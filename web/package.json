@@ -1,0 +1,45 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "hujuntao <hujuntao@digisky.com>",
+    "private": true,
+    "config": {
+        "nuxt": {
+            "host": "0.0.0.0",
+            "port": "8000"
+        }
+    },
+    "scripts": {
+        "dev": "nuxt -c nuxt.dev.config.js",
+        "build": "nuxt build -c nuxt.prod.config.js",
+        "start": "nuxt start -c nuxt.prod.config.js",
+        "generate": "nuxt generate -c nuxt.prod.config.js"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.1.1",
+        "@nuxtjs/component-cache": "^1.1.1",
+        "@nuxtjs/proxy": "^1.1.4",
+        "element-ui": "~2.13.0",
+        "gbk.js": "^0.3.0",
+        "js-base64": "^2.5.2",
+        "js-sha256": "^0.9.0",
+        "mux.js": "^5.5.1",
+        "nuxt": "^2.6.3",
+        "obs-websocket-js": "^4.0.1",
+        "uuid": "^7.0.2",
+        "video.js": "^7.6.6",
+        "videojs-contrib-dash": "^2.11.0",
+        "videojs-contrib-hls": "^5.15.0",
+        "videojs-flash": "^2.2.1",
+        "vue-socket.io": "^3.0.7",
+        "vuex-persistedstate": "^2.5.4"
+    },
+    "devDependencies": {
+        "axios-retry": "3.0.2",
+        "less": "^3.10.3",
+        "less-loader": "^5.0.0",
+        "vue-loader": "^15.7.1",
+        "webpack-merge": "^4.1.2"
+    }
+}
