@@ -60,4 +60,4 @@ export default {
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://git.ppgame.com/ops/obs-dashboard
+Bug reports and pull requests are welcome on GitHub at https://github.com/DigiSkyOps/knife 
