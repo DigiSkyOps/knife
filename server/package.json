@@ -10,17 +10,17 @@
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "^4.1.1",
-    "express": "~4.15.5",
+    "express": "~4.17.1",
     "is-port-reachable": "^3.0.0",
-    "mongoose": "^5.7.5",
+    "mongoose": "^5.9.7",
     "morgan": "~1.9.0",
+    "obs-websocket-js": "^4.0.1",
     "qs": "^6.6.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "serve-favicon": "~2.4.5",
     "socket.io": "^2.3.0",
-    "underscore": "^1.9.2",
-    "obs-websocket-js": "^4.0.1"
+    "underscore": "^1.9.2"
   },
   "devDependencies": {
     "cross-env": "^5.2.0"
